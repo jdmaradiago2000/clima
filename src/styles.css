@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+    padding: 20;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.card{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.575);
+    min-width: 360px;
+    max-width: 500px;
+    display: inline-block;
+    margin: 0px;
+    background-color:rgba(255, 255, 255, 0.411);
+}
+
+.title{
+    width: 100%;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.temperature{
+    margin-right: 15px;
+    position: relative;
+    top: -15px;
+}
+
+.data{
+    margin-left: 15px;
+    text-align: left;
+}
+
+.card ul{
+    list-style: none;
+}
+
+.card ul b{
+    color: rgb(44, 44, 255);
+}
+
+.card ul li{
+    margin-bottom: 10px;
+}
+
+.convert button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.convert button:hover{
+    box-shadow: 0px 0px 5px rgb(34, 30, 30), 2px 2px 6px black;
+}
+
+
+
